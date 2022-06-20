@@ -47,12 +47,13 @@ bcr.bar_chart_race(
     fixed_max=False,
     steps_per_period=45,
     period_length=1500,
+    end_period_pause=35,
     colors=[
         '#EF0107','#670E36','#e8e4d9','#97d9f6','#005daa','#034694','#1b458f','#274488','#FFCD00','#0053a0',
         '#d00027','#97c1e7','#da020e','#bbbdbf','#00a650','#ed1a3b','#132257','#fbee23','#7c2c3b','#fdb913'
     ],
     title={
-        'label':'Premier League 21/22 season',
+        'label':'Premier League 21/22 season - Points Gained By Each Club',
         'size':52,
         'weight':'bold',
         'pad':40
